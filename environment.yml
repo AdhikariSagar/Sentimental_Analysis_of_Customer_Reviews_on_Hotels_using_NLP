@@ -1,0 +1,16 @@
+name: project_env  # Replace with your preferred environment name
+channels:
+  - defaults
+  - conda-forge  # Adding conda-forge as an example, adjust as needed
+dependencies:
+  - python  # Replace with your preferred Python version
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - nltk
+  - scikit-learn
+  - pip
+  - pip:
+    - wordcloud
+    - ipykernel
