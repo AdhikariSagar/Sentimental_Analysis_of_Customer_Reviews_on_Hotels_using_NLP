@@ -1,3 +1,4 @@
 data/Hotel_Reviews.csv filter=lfs diff=lfs merge=lfs -text
 models/_BERT_epoch_1.model filter=lfs diff=lfs merge=lfs -text
 models/best_model.pt filter=lfs diff=lfs merge=lfs -text
+models/best_model filter=lfs diff=lfs merge=lfs -text
